@@ -1,14 +1,11 @@
 import { createBrowserRouter, redirect } from "react-router-dom";
-// import Home from "../pages/Home";
-// import Parent from "../pages/Parent";
-// import Detail from "../pages/Detail";
 import Home from "../pages/Home";
 import Parent from "../pages/Parent";
 import Detail from "../pages/Detail";
 import Login from "../pages/Login";
 import AddPage from "../pages/AddPage";
 import EditPage from "../pages/EditPage";
-import UploadImage from "../pages/uploadImage";
+import UploadImage from "../pages/UploadImage";
 import TypePage from "../pages/TypePage";
 import AddUser from "../pages/AddUser";
 
