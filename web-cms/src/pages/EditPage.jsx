@@ -19,7 +19,6 @@ export default function LodgingsForm() {
           },
         }
       );
-      //   console.log(data.lodging);
       setLodging(data.lodging);
     } catch (error) {
       Swal.fire({

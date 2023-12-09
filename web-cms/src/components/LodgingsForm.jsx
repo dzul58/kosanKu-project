@@ -24,29 +24,6 @@ export default function lodgingsForm({ url, handleSubmit, lodging, nameProp }) {
     }
   }, [lodging]);
 
-  //   async function fetchTypes() {
-  //     try {
-  //       const { data } = await axios.get(
-  //         `https://server.dzul58.online/lodgings`,
-  //         {
-  //           headers: {
-  //             Authorization: `Bearer ${localStorage.access_token}`,
-  //           },
-  //         }
-  //       );
-  //       setType(data.lodgings);
-  //     } catch (error) {
-  //       Swal.fire({
-  //         title: error.response.data.message,
-  //         icon: "error",
-  //       });
-  //     }
-  //   }
-
-  //   useEffect(() => {
-  //     fetchTypes();
-  //   }, []);
-
   return (
     <>
       <form

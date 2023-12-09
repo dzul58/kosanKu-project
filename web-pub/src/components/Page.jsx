@@ -3,33 +3,6 @@ import { useNavigate, useSearchParams } from "react-router-dom";
 import axios from "axios";
 
 const Page = ({ count, setCount }) => {
-  // const [data, setData] = useState([]);
-  // const [count, setCount] = useState(1);
-
-  //   useEffect(() => {
-  //     // Replace the URL with your API endpoint
-  //     async function fetchingData() {
-  //       try {
-  //         const response = await axios.get(
-  //           `https://server.dzul58.online/pub?page=${count}&limit=9`
-  //         );
-  //         setData(response.data.rows);
-  //       } catch (error) {
-  //         console.error("Error fetching data:", error);
-  //       }
-  //     }
-  //     fetchingData();
-  //   }, []);
-
-  // const navigate = useNavigate();
-
-  // useEffect(async () => {
-  //   const response = await axios.get(
-  //     `https://server.dzul58.online/pub?page=${count}&limit=9`
-  //   );
-  //   setData(response.data.rows);
-  // }, [count]);
-
   return (
     <>
       <nav className="bg-gray-700 justify-center flex items-center pt-5 pb-5">

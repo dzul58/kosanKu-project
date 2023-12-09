@@ -14,7 +14,7 @@ const Detail = () => {
           `https://server.dzul58.online/pub/${id}`
         );
         setData(response.data.lodging);
-        console.log(response.data.lodging);
+        // console.log(response.data.lodging);
       } catch (error) {
         Swal.fire({
           title: error.response.data.message,

@@ -42,7 +42,7 @@ export default function Login({ setPage }) {
 
   return (
     <>
-      <body className="bg-gray-100 h-screen flex items-center justify-center">
+      <div className="bg-gray-100 h-screen flex items-center justify-center">
         <div className="bg-white p-8 rounded shadow-md w-full max-w-md">
           <h2 className="text-2xl font-semibold mb-6 text-center">Login</h2>
 
@@ -50,7 +50,7 @@ export default function Login({ setPage }) {
           <form>
             <div className="mb-4">
               <label
-                for="username"
+                htmlFor="username"
                 className="block text-gray-600 text-sm font-medium mb-2"
               >
                 Username
@@ -67,7 +67,7 @@ export default function Login({ setPage }) {
 
             <div className="mb-6">
               <label
-                for="password"
+                htmlFor="password"
                 className="block text-gray-600 text-sm font-medium mb-2"
               >
                 Password
@@ -91,7 +91,7 @@ export default function Login({ setPage }) {
             </button>
           </form>
         </div>
-      </body>
+      </div>
     </>
   );
 }
